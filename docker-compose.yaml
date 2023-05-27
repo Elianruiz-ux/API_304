@@ -25,15 +25,15 @@ services:
     build: 
       context: auth_service
       dockerfile: Dockerfile
-    ports:
-      - 9091:80
+    # ports:
+      # - 9091:80
       
 
-  cars:
-    container_name: 
-      cars_service
-    build:
-      context: cars_service
-      dockerfile: Dockerfile
-    ports:
-      - 9092:80
+  # cars:
+  #   container_name: 
+  #     cars_service
+  #   build:
+  #     context: cars_service
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - 9092:80
