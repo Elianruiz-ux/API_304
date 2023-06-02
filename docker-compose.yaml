@@ -13,9 +13,9 @@ services:
       database
 
   ldb:
-    image: nginx
+    image: custom_ldb
     ports:
-      - 9090:80
+      - 80:80
     container_name:
       ldb
 
